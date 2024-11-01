@@ -1,0 +1,241 @@
+
+
+
+input[type="checkbox"], input[type="radio"] {
+    float: left;
+    margin: 1px -1px 8px;
+    padding: 0;
+    vertical-align: text-top;
+}
+
+
+label{
+    color: gray;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+/*
+ .list_services ul li input[type="checkbox"], input[type="radio"] {    float: left;
+    margin: 6px 5px 1px -30px;
+    padding-left: 3px;
+    position: absolute;
+    vertical-align: text-top;}
+*/
+
+
+/*
+
+@media all and (min-width: 0px) {
+ .list_services ul li input[type="checkbox"], input[type="radio"] {margin-left:-30px;}
+}
+
+@media screen and (min--moz-device-pixel-ratio:0) { 
+ .list_services ul li input[type="checkbox"], input[type="radio"] {margin-left:-58px;}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{ 
+ .list_services ul li input[type="checkbox"], input[type="radio"] {margin-left:-58px;}
+}
+
+*/
+
+
+
+.selct_all {
+margin:10px;
+}
+
+.hllo-world {}
+#v_connect_content {display:block; height:auto; margin:15px 0 0; width:100%;}
+
+.list_services{
+    float:left; 
+    width:100%;
+}
+
+    .list_services ul{
+        float:left; 
+        width:100%; 
+        list-style:none; 
+        margin:0; 
+        padding:0 0;
+    }
+
+        .list_services ul li{
+        clear:right;
+            float:left !important; 
+            width:158px; 
+            line-height:24px; 
+            border:1px solid #e4e4e4; 
+            border-radius:6px; 
+            padding:6px; 
+            margin:10px 0 0 25px;
+            height:26px !important;
+            
+        }
+
+        .list_services ul li input{
+            padding: 0;
+            margin: 0;
+            float: right;
+            margin-top:5px;
+            position: relative;
+            left: -170px;
+        }
+        
+        .list_services ul li input[type=checkbox], input[type=radio] {
+width: 11px;
+height: 11px;
+padding: 0;
+float: right;
+position: relative;
+left: -169px;
+top: 1px;
+        }
+        
+            .list_services ul li a{
+                font:12px sans-serif; 
+                color:#21759B; 
+                text-decoration:none;
+                float: left;
+            }
+
+            .list_services ul li a span{
+                float: left;
+                margin:4px;
+                margin-left: 2px;
+            }
+            .list_services ul li:hover a{color:#999; transition: all 0.2s ease-in-out 0s;}
+                .list_services ul li a img{float:left; margin-right:3px;}
+
+
+.login_bx{float:left; width:402px; padding:0; border:solid 1px #dedede; font:12px sans-serif; color:#333; clear:both !important; border-radius:4px;}
+.login_bx h3{float:left; width:100%; margin:8px 0; font-size:18px; color:#666;}
+.login_bx .element{float:left; width:100%; margin:5px 0;}
+.login_bx .element label {float:left; width:36%; font-weight:700; line-height:28px;}
+.login_bx .element input.text {float:right; width:58%; padding:2%; background:#f0f0f0; border:1px solid #e0e0e0; color:#888; border-radius:5px;}
+.element input.hightlight {
+    border:2px solid #9F1319 !important;
+    background:url(../images/1371669623_Error.png) no-repeat 2px !important;
+}
+.login_bx .heighlight {display:none;border: 2px solid red;}
+.login_bx .errormessage{background:url(../images/error.png) no-repeat 2px;display:none;float:left; width:95.6%; padding:8px 8px 8px 20px; background-color: #FCCAC1; color:red; border: 1px solid #E18B7C; border-radius:5px; margin:5px 0;}
+.login_bx .successmessage{background:url(../images/succes_login.png) no-repeat 2px;display:none;float:left; width:95.6%; padding:8px 8px 8px 20px; background-color:#EFFEB9; border: 1px solid #C1D779; border-radius:5px; margin:5px 0;}
+
+.login_bx .element #btn {margin-left:130px; background: linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.login_bx .submit_button_div {
+float: right;
+margin: 18px 0;
+width: 140px;
+text-align: right;
+}
+.login_bx .submit_button_div label {float:left; width:36%; font-weight:700; line-height:28px;}
+.login_bx .submit_button_div input.text {float:right; width:58%; padding:2%; background:#f0f0f0; border:1px solid #e0e0e0; color:#888; border-radius:5px;}
+.login_bx .submit_button_div #btn {float:right; background:linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -moz-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; 
+background: -webkit-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -o-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -ms-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(153,191,77)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(114,148,48)));background: linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.login_bx .submit_button_div #btn:hover { background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(114,148,48)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(153,191,77)));background: linear-gradient(to bottom, #5c7035 0%, #7fa238 50%, #7fa238 95%, #99BF4D 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.login_bx .submit_button_div .rember_me {display:block; float:left; margin:0 90px 0 0;}
+    
+
+.done {background:url(../images/succes_login.png) no-repeat 2px;display:none;width:95%; padding:2%; float:left; font:12px sans-serif; background-color:#EFFEB9; border: 1px solid #C1D779; border-radius:5px;}
+
+
+.login_heading {background-image:-moz-linear-gradient(center top , #F9F9F9, #E9E9E9); border-bottom:1px solid #BABABA;
+ background-image: -webkit-linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233)); border-radius:4px 4px 0 0; 
+ box-shadow:0 -1px 0 #FFFFFF inset, 0 1px 3px rgba(0, 0, 0, 0.08); background-image:-ms-linear-gradient(rgb(249, 249, 249), rgb(233, 233, 233));background-image:-moz-linear-gradient(center top , #F9F9F9, #E9E9E9); border-bottom:1px solid #BABABA; border-radius:4px 4px 0 0; box-shadow:0 -1px 0 #FFFFFF inset, 0 1px 3px rgba(0, 0, 0, 0.08); color:#444444; font-size:14px; font-weight:bold; height:44px;
+line-height:44px; text-align:center; text-shadow:0 1px 0 #FFFFFF; width:402px;}
+.login_content_padding {padding:3% 8% 8% 8%;}
+
+.authenticationtoken {display:block;position:absolute; left:416px}
+.authenticationtoken img {width:710px}
+
+/* start top_banner tab style */
+.top_banner {margin-top:10px;}
+.top_banner img {width:99%;}
+/* end top_banner tab style */
+
+/* start tab style */
+#tab {float:left; width:78%; list-style: none outside none; margin: 0; padding: 0; width: 98%;}
+#tab ul li{margin-bottom:0 !important; float:left; display:inline-block; border:1px solid #DFDFDF; background:#F9F9F9; line-height:34px; margin-left:2px; padding:0 22.5px; cursor:pointer; border-top-right-radius:0.5em; border-top-left-radius:0.5em; color:#000} 
+#tab ul li.frst{margin:0;}
+#tab ul li.act, #middle .navi ul li:hover{ background:#94BC41; cursor:pointer; -moz-box-shadow: 2px 2px 3px #333; color:#fff}
+#tab ul li a{color:#000; text-decoration:none; font:bold 14px tahoma;}
+
+
+#tab_content{float:left; width:78%; height:auto; border:1px solid #dedede; border-top-right-radius:0.5em; border-bottom-right-radius:0.5em; border-bottom-left-radius:0.5em; padding:0.1%;}
+#tab_content_a, #tab_content_b{float:left; width:100%;}
+#tab_content_b{display:none;}
+/* close tab style */
+
+/* start analytics_overview tab style */
+.analytics_overview {float:left; display:block; width:17%; border:1px solid #dedede; border-radius:0.5em; padding:1%; margin:0 0 0 0.8%;}
+.analytics_overview  ul {margin:0; padding:0; list-style:none; float:left;}
+.analytics_overview ul li {display:block; margin:0.5em 0 0;padding-left: 16px;}
+.analytics_right_div {display:block; margin-left:1em; float:right;}
+.analytics_overview a {color:#000; text-decoration:none;}
+.upgrade_info {color:#94BC41;}
+/* end analytics_overview tab style */ 
+
+
+/* start index-page button tab style */
+.dis_btn {float:right; width:auto; margin: 7px 0 0;}
+.dis_btn a {background:linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -moz-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; 
+background: -webkit-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -o-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -ms-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(153,191,77)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(114,148,48)));text-decoration:none; background: linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.dis_btn a:hover {background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(114,148,48)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(153,191,77)));text-decoration:none; text-decoration:none; background: linear-gradient(to bottom, #5c7035 0%, #7fa238 50%, #7fa238 95%, #99BF4D 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.dis_btn a:hover,.dis_btn a:active,.dis_btn a:focus{text-decoration: none;color: #fff;}
+.dis_btn span{display:none;background:url(../images/spinner.gif) no-repeat 2px;margin-right:5px; line-height:23px;float:left;padding-left:23px;}
+
+.disconnected_button_div .rember_me {display:block; float:left; margin:0 111px 0 0;}
+
+.disconnect {float:left; font:12px sans-serif;}
+/* end index-page button tab style */
+
+
+#tab_content_b .upd_btn{margin:13px;}
+.upd_btn {float:left; width:auto;}
+.upd_btn a {background:linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -moz-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; 
+background: -webkit-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -o-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -ms-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(153,191,77)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(114,148,48)));text-decoration:none;float:left; background: linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+
+.upd_btn a:hover { background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(114,148,48)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(153,191,77)));background: linear-gradient(to bottom, #5c7035 0%, #7fa238 50%, #7fa238 95%, #99BF4D 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.upd_btn a:hover,.upd_btn a:active,.upd_btn a:focus{text-decoration: none;color: #fff;}
+.upd_btn span{display:none;background:url(../images/spinner.gif) no-repeat 2px;margin-right:5px;margin-top:5px; line-height:23px;float:right;padding-left:23px;margin-left: 10px;}
+.upd_btn span img{float:left; margin:8px 0 8px 6px;}
+
+.submit_button_div .loading {
+    float:left; 
+    background:url(../images/spinner.gif) no-repeat 1px; 
+    height:20px; 
+    width:20px; 
+    display:none;
+    margin-left: -25px;
+    margin-top:5px;
+}
+
+.sign_up {float:right; width:auto; margin: 2px 6px 0;}
+.sign_up a {background:linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -moz-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; 
+background: -webkit-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -o-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -ms-linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(153,191,77)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(114,148,48)));text-decoration:none;float:left; background: linear-gradient(to bottom, #99BF4D 0%, #86A93F 50%, #729430 95%, #587224 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.sign_up a:hover {background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(114,148,48)), color-stop(0.69, rgb(134,169,63)), color-stop(0.85, rgb(153,191,77)));text-decoration:none; text-decoration:none; background: linear-gradient(to bottom, #5c7035 0%, #7fa238 50%, #7fa238 95%, #99BF4D 100%) repeat scroll 0 0 transparent; padding:5px; border: 1px solid #5B8821; border-radius:5px; color:#fff; cursor: pointer; transition: all 0.2s ease-in-out 0s;}
+.sign_up a:hover,.sign_up a:active,.sign_up a:focus{text-decoration: none;color: #fff;}
+
+
+
+                
+                
